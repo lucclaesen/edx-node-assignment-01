@@ -1,0 +1,8 @@
+{
+  "name": "edx-node-assignment-01",
+  "version": "1.0.0",
+  "description": "A csv to json converter",
+  "main": "index.js",
+  "author": "Luc Claesen",
+  "license": "ISC"
+}
