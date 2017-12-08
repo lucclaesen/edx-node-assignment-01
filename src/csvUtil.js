@@ -12,7 +12,9 @@ function getLines(filePath) {
                 reject("Could not read the file");
             }
             else {
-                resolve(buff.split('\n'));
+                resolve(buff
+                    .split('\n')
+                    .filter((l) => l.trim().length > 0));
             }
         });
     });
